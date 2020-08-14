@@ -12,6 +12,7 @@ const bg = document.querySelector("html");
 
 document.onclick = function () {
   recognition.start();
+  outputDiv.textContent = "...";
   instructionsDiv.textContent = "Say something";
 };
 
